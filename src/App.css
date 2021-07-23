@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  color: black;
+}
+
+.Navigation {
+  background-color: #faebd7;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.nav-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  height: inherit;
+  width: 1200px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.Tabs {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.Logo {
+  height: inherit;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.logo-image {
+  height: inherit;
+}
+
+.tab-home {
+  width: 8vw;
+  height: 100%;
+  background-color: khaki;
+  display: flex;
+}
+
+.tab-home a{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  align-items: center;
+  margin: auto;
+}
+
+.tab-about {
+  width: 8vw;
+}
+
+.main-content {
+  background-color: white;
+}
+
+.main-content-container {
+  width: 1200px;
+  height: 1500px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  min-height: 500px;
+  max-height: 500px;
+  background-image: url("./images/artheader.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.search-bar, .search-bar:focus {
+  margin: auto;
+  margin-right: 0;
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-icon {
+  color: white;
+}
+
+button{
+  all:unset;
+  width: inherit;
+  height: inherit;
+}
+
+.header-container{
+  display: flex;
+  flex-flow: column;
+  width: 1200px;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.search-field {
+  display: flex;
+}
+
+.submit {
+  margin: auto;
+  margin-left: 0;
+  width: 3vw;
+  height: 56px;
+  font-size: 35px;
+}
+
+h1{
+  color:white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.section-about {
+  text-align: center;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.service-icon {
+  font-size: 40px;
+}
+
+.service-1{
+  width: 100%;
+}
+
+.service-2{
+  width: 100%;
+}
+
+.service-3{
+  width: 100%;
+}
